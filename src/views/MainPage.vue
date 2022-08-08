@@ -2,15 +2,8 @@
 .main-page
   HeaderBar()
   .main-page__menu
-    h1 КОМПЛЕКСНЫЕ СИСТЕМЫ БЕЗОПАСНОСТИ
-    ul.main-page__menu-list
-      li.main-page__menu-item СИСТЕМЫ КОНТРОЛЯ И УПРАВЛЕНИЕ ДОСТУПОМ
-      li.main-page__menu-item ПОЖАРНАЯ СИГНАЛИЗАЦИЯ
-      li.main-page__menu-item ЭЛЕКТРОЛАБОРАТОРИЯ
-      li.main-page__menu-item ДОМОФОНИЯ
-      li.main-page__menu-item ВИДЕОНАБЛЮДЕНИЕ
-      li.main-page__menu-item ОХРАННАЯ СИГНАЛИЗАЦИЯ
-  .main-page__banner-stretching НАШИ УСЛУГИ
+    h1.main-page__title КОМПЛЕКСНЫЕ СИСТЕМЫ БЕЗОПАСНОСТИ
+    MenuList()
   .main-page__our-projects НАШИ ПРОЕКТЫ
   .main-page__project-counter НАМИ СДЕЛАНО
   .main-page__costomer-reviews ОТЗЫВЫ НАШИХ КЛИЕНТОВ
@@ -23,6 +16,7 @@
 <script setup>
 import { reactive } from 'vue'
 import HeaderBar from '@/components/HeaderBar.vue'
+import MenuList from '@/components/MenuList.vue'
 
 </script>
 
@@ -35,16 +29,13 @@ import HeaderBar from '@/components/HeaderBar.vue'
   background: rgba(11, 41, 53, 0.5)
 
 .main-page__menu
-  padding: 0px 1ch
-
-
-.main-page__menu-list
-  list-style-type: none
-
-.main-page__menu-item
-
-.main-page__banner-stretching
+  max-width: 100vw
   height: 80vh
+
+.main-page__title
+  font-weight: 300
+  text-align: center
+  font-size: 10vw
 
 .main-page__our-projects
   height: 80vh
