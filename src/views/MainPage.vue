@@ -4,7 +4,7 @@
   .main-page__menu
     h1.main-page__title КОМПЛЕКСНЫЕ СИСТЕМЫ БЕЗОПАСНОСТИ
     MenuList()
-  .main-page__our-projects НАШИ ПРОЕКТЫ
+  OurProjects()
   .main-page__project-counter НАМИ СДЕЛАНО
   .main-page__costomer-reviews ОТЗЫВЫ НАШИХ КЛИЕНТОВ
   .main-page__slider-order-the-service ЗАКАЗАТЬ УСЛУГУ
@@ -17,6 +17,7 @@
 import { reactive } from 'vue'
 import HeaderBar from '@/components/HeaderBar.vue'
 import MenuList from '@/components/MenuList.vue'
+import OurProjects from '@/components/OurProjects.vue'
 
 </script>
 
@@ -36,9 +37,6 @@ import MenuList from '@/components/MenuList.vue'
   font-weight: 300
   text-align: center
   font-size: 10vw
-
-.main-page__our-projects
-  height: 80vh
 
 .main-page__project-counter
   height: 80vh
