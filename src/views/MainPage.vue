@@ -1,9 +1,9 @@
 <template lang="pug">
 .main-page
   HeaderBar()
-  .main-page__menu
+  .main-page__services
     h1.main-page__title КОМПЛЕКСНЫЕ СИСТЕМЫ БЕЗОПАСНОСТИ
-    MenuList()
+    ListOfServices()
   OurProjects()
   .main-page__project-counter НАМИ СДЕЛАНО
   .main-page__costomer-reviews ОТЗЫВЫ НАШИХ КЛИЕНТОВ
@@ -16,7 +16,7 @@
 <script setup>
 import { reactive } from 'vue'
 import HeaderBar from '@/components/HeaderBar.vue'
-import MenuList from '@/components/MenuList.vue'
+import ListOfServices from '@/components/ListOfServices.vue'
 import OurProjects from '@/components/OurProjects.vue'
 
 </script>
@@ -29,7 +29,7 @@ import OurProjects from '@/components/OurProjects.vue'
   align-items: center
   background: rgba(11, 41, 53, 0.5)
 
-.main-page__menu
+.main-page__services
   max-width: 100vw
   height: 80vh
 
