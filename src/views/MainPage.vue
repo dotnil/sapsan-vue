@@ -18,6 +18,7 @@ import { reactive } from 'vue'
 import HeaderBar from '@/components/HeaderBar.vue'
 import ListOfServices from '@/components/ListOfServices.vue'
 import OurProjects from '@/components/OurProjects.vue'
+import ProjectCounter from '@/components/ProjectCounter.vue'
 
 </script>
 
@@ -37,9 +38,6 @@ import OurProjects from '@/components/OurProjects.vue'
   font-weight: 300
   text-align: center
   font-size: 10vw
-
-.main-page__project-counter
-  height: 80vh
 
 .main-page__costomer-reviews
   height: 80vh

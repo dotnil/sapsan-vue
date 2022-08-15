@@ -16,6 +16,8 @@
   justify-content: space-between
   background-color: rgba(24, 57, 74, 0.5)
   align-items: center
+  position: sticky
+  top: 0
 
 .header-bar__icon
   min-height: 38px
