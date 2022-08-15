@@ -1,11 +1,11 @@
 <template lang="pug">
 .main-page
-  HeaderBar()
+  HeaderBar
   .main-page__services
     h1.main-page__title КОМПЛЕКСНЫЕ СИСТЕМЫ БЕЗОПАСНОСТИ
-    ListOfServices()
-  OurProjects()
-  .main-page__project-counter НАМИ СДЕЛАНО
+    ListOfServices
+  OurProjects
+  ProjectCounter
   .main-page__costomer-reviews ОТЗЫВЫ НАШИХ КЛИЕНТОВ
   .main-page__slider-order-the-service ЗАКАЗАТЬ УСЛУГУ
   .main-page__licenses Лицензированное производство
@@ -32,7 +32,7 @@ import ProjectCounter from '@/components/ProjectCounter.vue'
 
 .main-page__services
   max-width: 100vw
-  height: 80vh
+  height: 100%
 
 .main-page__title
   font-weight: 300

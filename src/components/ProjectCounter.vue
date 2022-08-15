@@ -54,7 +54,6 @@
   font-weight: 600
   color: #0f3443
   padding: 12px 2px
-  cursor: pointer
   display: flex
   flex-direction: column
   align-items: center
