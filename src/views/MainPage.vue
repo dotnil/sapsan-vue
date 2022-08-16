@@ -6,7 +6,7 @@
     ListOfServices
   OurProjects
   ProjectCounter
-  .main-page__costomer-reviews ОТЗЫВЫ НАШИХ КЛИЕНТОВ
+  CostomerReviews
   .main-page__slider-order-the-service ЗАКАЗАТЬ УСЛУГУ
   .main-page__licenses Лицензированное производство
   .main-page__list-of-partners НАШИ ПАРТНЕРЫ
@@ -19,6 +19,7 @@ import HeaderBar from '@/components/HeaderBar.vue'
 import ListOfServices from '@/components/ListOfServices.vue'
 import OurProjects from '@/components/OurProjects.vue'
 import ProjectCounter from '@/components/ProjectCounter.vue'
+import CostomerReviews from '@/components/CostomerReviews.vue'
 
 </script>
 
