@@ -23,7 +23,7 @@
 
   .our-projects__all-projects
     .our-projects__all-projects-link ПОСМОТРЕТЬ ВСЕ
-    img.our-projects__all-projects-icon-arrow(src='/src/assets/icon-arrow-right.svg')
+    img.our-projects__all-projects-icon-arrow(src='/src/assets/icons/arrow-right.svg')
 
 </template>
 
