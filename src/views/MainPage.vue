@@ -7,7 +7,7 @@
   OurProjects
   ProjectCounter
   CostomerReviews
-  .main-page__slider-order-the-service ЗАКАЗАТЬ УСЛУГУ
+  ServiceOrder
   .main-page__licenses Лицензированное производство
   .main-page__list-of-partners НАШИ ПАРТНЕРЫ
   .main-page__footer О КОМПАНИИ
@@ -20,7 +20,7 @@ import ListOfServices from '@/components/ListOfServices.vue'
 import OurProjects from '@/components/OurProjects.vue'
 import ProjectCounter from '@/components/ProjectCounter.vue'
 import CostomerReviews from '@/components/CostomerReviews.vue'
-
+import ServiceOrder from '@/components/ServiceOrder.vue'
 </script>
 
 <style>
@@ -40,11 +40,6 @@ import CostomerReviews from '@/components/CostomerReviews.vue'
   text-align: center
   font-size: 10vw
 
-.main-page__costomer-reviews
-  height: 80vh
-
-.main-page__slider-order-the-service
-  height: 80vh
 
 .main-page__licenses
   height: 80vh
